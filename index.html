@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/DiseñoDelFormulario.css">
+        <link rel="stylesheet" href="config/config.php">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+        
+              <h1>Inventario</h1>
+            </div>
+        </header>
+        <form action="index1.php" method="POST">
+              <legend>Registro de inventario</legend>
+              <div class="mb-3">
+                <label for="opcion-uno" class="form-label" >Inserte el nombre del producto</label>
+                <input type="text" id="nombre" class="form-control" placeholder="Nombre" name="Nombre">
+                <div class="valid-feedback">
+                  <label for="Nombre">(Solo se permiten de 4 a 8 cáracteres)</label>
+                  <minlength="4" maxlength="50" size="10">
+                    <span class="validar"></span>
+              </div>
+              </div>
+              <div class="mb-3">
+                <label for="opcion-uno" class="form-label" >Inserte el valor del producto</label>
+                <input type="text" id="precio" class="form-control" placeholder="precio"name="precio" >
+              </div>
+             
+          
+          <div class="form-group">
+              <label for="descripcion">Descripción</label>
+              <textarea class="form-control" id="descripcion" name="descripcion"rows="3"></textarea>
+            </div>
+          
+          <button type="submit" class="btn btn-primary" value="registrarse ">Ingresar</button>
+            </fieldset>
+          </form>
+          
+        <script> src= "js/jquery-3.6.0.min.js"</script>
+        <script>src="js/bootstrap.min.js" </script>
+        
+    </body>
+</html>

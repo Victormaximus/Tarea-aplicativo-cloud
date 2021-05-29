@@ -1,0 +1,28 @@
+header {
+
+    background: rgba(22, 34, 34, 0.897);
+    color: rgb(90, 236, 16);
+}
+.main {
+
+    background: rgb(237, 243, 247);
+}
+.color1 {
+    background: rgb(13, 64, 94);
+    color:  rgb(245, 227, 227);
+    
+}
+aside {
+
+    background: blanchedalmond;
+    color: rgba(14, 13, 13, 0.589);
+}
+
+footer {
+    background: rgb(18, 77, 92);
+    color: white;
+}
+btn-primary {
+    color: rgb(90, 236, 16);
+    background-color:rgba(22, 34, 34, 0.897);
+    border-color: rgb(67, 226, 247);}
